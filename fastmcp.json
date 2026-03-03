@@ -1,0 +1,15 @@
+{
+  "name": "ai-data-analyst",
+  "version": "1.0.0",
+  "description": "AI-powered data analysis with natural language queries",
+  "server": "src/main.py",
+  "dependencies": [
+    "fastmcp>=0.9.0",
+    "pandas>=2.1.0",
+    "numpy>=1.24.0",
+    "plotly>=5.17.0",
+    "scikit-learn>=1.3.0",
+    "sqlalchemy>=2.0.0",
+    "pyyaml>=6.0.0"
+  ]
+}

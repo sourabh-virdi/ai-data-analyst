@@ -1,0 +1,47 @@
+# Core MCP and server dependencies
+fastmcp>=0.9.0
+pydantic>=2.5.0
+
+# Data processing and analysis
+pandas>=2.1.0
+numpy>=1.24.0
+sqlalchemy>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Database connectors
+psycopg2-binary>=2.9.0
+pymysql>=1.1.0
+snowflake-connector-python>=3.5.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.17.0
+seaborn>=0.13.0
+
+# Statistical analysis
+scipy>=1.11.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Natural language processing
+openai>=1.3.0
+tiktoken>=0.5.0
+
+# Utilities
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+aiohttp>=3.9.0
+python-multipart>=0.0.6
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.7.0
+
+# Logging and monitoring
+structlog>=23.2.0
+rich>=13.7.0 
