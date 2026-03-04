@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "ai-data-analyst": {
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": [
+        "src/main.py"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "PYTHONUNBUFFERED": "1",
+        "VIRTUAL_ENV": "${workspaceFolder}\\.venv"
+      }
+    }
+  }
+}
