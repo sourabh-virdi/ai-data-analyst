@@ -1,0 +1,82 @@
+analytics:
+  anomaly_detection:
+    contamination: 0.1
+    methods:
+    - isolation_forest
+    - z_score
+    - iqr
+  max_rows_for_analysis: 1000000
+  statistical_significance: 0.05
+cache:
+  enabled: true
+  max_size: 1000
+  ttl_seconds: 3600
+databases:
+  mysql:
+    database: analytics
+    enabled: false
+    host: localhost
+    password: password
+    port: 3306
+    username: root
+  postgresql:
+    database: analytics
+    enabled: false
+    host: localhost
+    password: password
+    port: 5432
+    username: postgres
+  snowflake:
+    account: your_account
+    database: ANALYTICS
+    enabled: false
+    password: your_password
+    schema: PUBLIC
+    username: your_user
+    warehouse: COMPUTE_WH
+  sqlite:
+    enabled: true
+    path: data/sample.db
+files:
+  csv_delimiter: ','
+  encoding: utf-8
+  excel_sheet: 0
+  max_file_size_mb: 100
+  supported_formats:
+  - csv
+  - xlsx
+  - xls
+  - json
+logging:
+  backup_count: 5
+  file: logs/ai_data_analyst.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  level: INFO
+  max_size: 10485760
+mcp:
+  description: AI-powered data analysis with natural language queries
+  name: ai-data-analyst
+  version: 1.0.0
+nlp:
+  max_tokens: 1000
+  model: gpt-3.5-turbo
+  openai_api_key: your_openai_api_key_here
+  temperature: 0.1
+security:
+  allowed_origins:
+  - '*'
+  max_request_size: 10485760
+server:
+  debug: true
+  host: localhost
+  log_level: INFO
+  port: 8000
+visualization:
+  default_height: 600
+  default_theme: plotly_white
+  default_width: 800
+  dpi: 300
+  export_formats:
+  - png
+  - html
+  - svg

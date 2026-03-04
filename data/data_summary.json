@@ -1,0 +1,92 @@
+{
+  "datasets": {
+    "sales": {
+      "records": 1000,
+      "columns": [
+        "transaction_id",
+        "date",
+        "customer_id",
+        "product_name",
+        "category",
+        "quantity",
+        "unit_price",
+        "total_amount",
+        "region",
+        "sales_rep",
+        "quarter",
+        "month",
+        "year",
+        "discount_percent"
+      ],
+      "date_range": "2023-09-24 to 2025-09-22",
+      "total_revenue": 668501.82
+    },
+    "customers": {
+      "records": 100,
+      "columns": [
+        "customer_id",
+        "customer_name",
+        "segment",
+        "industry",
+        "registration_date",
+        "last_purchase_date",
+        "lifetime_value",
+        "total_orders",
+        "avg_order_value",
+        "is_active",
+        "credit_limit",
+        "region",
+        "contact_email",
+        "phone"
+      ],
+      "segments": {
+        "SMB": 29,
+        "Enterprise": 28,
+        "Individual": 24,
+        "Startup": 19
+      },
+      "total_ltv": 891567.88
+    },
+    "financials": {
+      "records": 365,
+      "columns": [
+        "date",
+        "revenue",
+        "expenses",
+        "profit",
+        "cash_flow",
+        "cash_balance",
+        "profit_margin",
+        "accounts_receivable",
+        "accounts_payable",
+        "inventory_value",
+        "quarter",
+        "month",
+        "year"
+      ],
+      "date_range": "2024-09-23 to 2025-09-22",
+      "total_profit": 389211.39
+    },
+    "user_activity": {
+      "records": 500,
+      "columns": [
+        "date",
+        "daily_active_users",
+        "monthly_active_users",
+        "new_signups",
+        "session_duration_avg",
+        "page_views",
+        "bounce_rate",
+        "conversion_rate",
+        "revenue_per_user",
+        "churn_rate",
+        "quarter",
+        "month",
+        "year"
+      ],
+      "date_range": "2024-09-23 to 2025-09-23",
+      "avg_daily_users": 1364.83
+    }
+  },
+  "generated_at": "2025-09-23T13:46:01.828656"
+}
